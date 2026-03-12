@@ -1,3 +1,8 @@
+# Topic 1
+
+## Quantized Llama 3.2-1B MMLU Results
+
+```json
 {
   "model": "meta-llama/Llama-3.2-1B-Instruct",
   "quantization_bits": null,
@@ -22,88 +27,24 @@
     }
   ]
 }
+```
 
+## Multi-Model Benchmark Results
+
+```json
 {
   "meta-llama/Llama-3.2-3B-Instruct": {
     "astronomy": {
       "accuracy": 0.2894736842105263,
       "correct": 44,
       "total": 152,
-      "time_real": 151.5119686126709,
-      "time_cpu": 149.61729487899999,
-      "time_gpu": 151.5155
+      "time_real": 151.5119686126709
     },
     "business_ethics": {
       "accuracy": 0.45,
       "correct": 45,
       "total": 100,
-      "time_real": 120.01293158531189,
-      "time_cpu": 119.33037632000003,
-      "time_gpu": 120.015890625
-    },
-    "elementary_mathematics": {
-      "accuracy": 0.31746031746031744,
-      "correct": 120,
-      "total": 378,
-      "time_real": 403.7019581794739,
-      "time_cpu": 401.24708709500004,
-      "time_gpu": 403.711375
-    },
-    "marketing": {
-      "accuracy": 0.5170940170940171,
-      "correct": 121,
-      "total": 234,
-      "time_real": 189.5458836555481,
-      "time_cpu": 188.26324054199995,
-      "time_gpu": 189.550390625
-    },
-    "global_facts": {
-      "accuracy": 0.24,
-      "correct": 24,
-      "total": 100,
-      "time_real": 82.24261736869812,
-      "time_cpu": 81.57651577600006,
-      "time_gpu": 82.2446171875
-    },
-    "machine_learning": {
-      "accuracy": 0.38392857142857145,
-      "correct": 43,
-      "total": 112,
-      "time_real": 151.77903747558594,
-      "time_cpu": 150.7108648950001,
-      "time_gpu": 151.782640625
-    },
-    "philosophy": {
-      "accuracy": 0.33762057877813506,
-      "correct": 105,
-      "total": 311,
-      "time_real": 209.61036348342896,
-      "time_cpu": 207.97789843200007,
-      "time_gpu": 209.61534375
-    },
-    "professional_law": {
-      "accuracy": 0.30247718383311606,
-      "correct": 464,
-      "total": 1534,
-      "time_real": 6333.5931668281555,
-      "time_cpu": 6302.390324097,
-      "time_gpu": 6333.739
-    },
-    "world_religions": {
-      "accuracy": 0.4678362573099415,
-      "correct": 80,
-      "total": 171,
-      "time_real": 90.48434090614319,
-      "time_cpu": 89.72934134600018,
-      "time_gpu": 90.486546875
-    },
-    "virology": {
-      "accuracy": 0.42168674698795183,
-      "correct": 70,
-      "total": 166,
-      "time_real": 111.7034637928009,
-      "time_cpu": 110.85711322400039,
-      "time_gpu": 111.7061796875
+      "time_real": 120.01293158531189
     }
   },
   "Qwen/Qwen2.5-1.5B-Instruct": {
@@ -111,81 +52,14 @@
       "accuracy": 0.28289473684210525,
       "correct": 43,
       "total": 152,
-      "time_real": 74.28629636764526,
-      "time_cpu": 73.58941722700001,
-      "time_gpu": 74.2881171875
+      "time_real": 74.28629636764526
     },
     "business_ethics": {
       "accuracy": 0.44,
       "correct": 44,
       "total": 100,
-      "time_real": 56.54457473754883,
-      "time_cpu": 55.98642187099995,
-      "time_gpu": 56.545984375
-    },
-    "elementary_mathematics": {
-      "accuracy": 0.335978835978836,
-      "correct": 127,
-      "total": 378,
-      "time_real": 210.95170640945435,
-      "time_cpu": 209.15123505999964,
-      "time_gpu": 210.9566875
-    },
-    "marketing": {
-      "accuracy": 0.5769230769230769,
-      "correct": 135,
-      "total": 234,
-      "time_real": 87.82849025726318,
-      "time_cpu": 86.76563179799996,
-      "time_gpu": 87.8306171875
-    },
-    "global_facts": {
-      "accuracy": 0.21,
-      "correct": 21,
-      "total": 100,
-      "time_real": 39.46879172325134,
-      "time_cpu": 39.10135149999951,
-      "time_gpu": 39.4698046875
-    },
-    "machine_learning": {
-      "accuracy": 0.44642857142857145,
-      "correct": 50,
-      "total": 112,
-      "time_real": 69.48243832588196,
-      "time_cpu": 68.9170796870003,
-      "time_gpu": 69.4841484375
-    },
-    "philosophy": {
-      "accuracy": 0.33440514469453375,
-      "correct": 104,
-      "total": 311,
-      "time_real": 100.0872950553894,
-      "time_cpu": 98.67937635800081,
-      "time_gpu": 100.089703125
-    },
-    "professional_law": {
-      "accuracy": 0.33572359843546284,
-      "correct": 515,
-      "total": 1534,
-      "time_real": 2985.9328882694244,
-      "time_cpu": 2970.260750296,
-      "time_gpu": 2986.002
-    },
-    "world_religions": {
-      "accuracy": 0.52046783625731,
-      "correct": 89,
-      "total": 171,
-      "time_real": 43.01681661605835,
-      "time_cpu": 42.4771775549998,
-      "time_gpu": 43.01790234375
-    },
-    "virology": {
-      "accuracy": 0.39759036144578314,
-      "correct": 66,
-      "total": 166,
-      "time_real": 53.704206228256226,
-      "time_cpu": 52.94040801299889,
-      "time_gpu": 53.70554296875
+      "time_real": 56.54457473754883
     }
   }
 }
+```
