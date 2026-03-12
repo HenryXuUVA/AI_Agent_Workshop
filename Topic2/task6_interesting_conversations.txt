@@ -1,0 +1,17 @@
+Conversation 1
+========================================
+Human: What is the best ice cream flavor?
+Llama: There is no one best flavor, but vanilla is the most popular.
+Human: Hey Qwen, what do you think?
+Qwen: No way, chocolate is the best!
+Human: I agree.
+Llama: Glad we agree. Taste is personal, but balance and texture matter too.
+
+Conversation 2
+========================================
+Human: Design a tiny weekend trip plan.
+Llama: From Llama: I think through tradeoffs before answering.
+Human: Hey Qwen, make it more adventurous.
+Qwen: From Qwen: I prefer bold flavors and strong opinions.
+Human: Now make it cheaper.
+Llama: From Llama: I think through tradeoffs before answering.
